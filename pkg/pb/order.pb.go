@@ -13,9 +13,6 @@ import (
 	sync "sync"
 )
 
-type Server struct {
-    // Your struct fields
-}
 const (
 	// Verify that this generated code is sufficiently up-to-date.
 	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)

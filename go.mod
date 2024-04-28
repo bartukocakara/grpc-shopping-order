@@ -1,7 +1,7 @@
 module github.com/bartukocakara/grpc-shopping-order
 
 go 1.18
-	
+
 require (
 	github.com/spf13/viper v1.18.2
 	google.golang.org/grpc v1.59.0

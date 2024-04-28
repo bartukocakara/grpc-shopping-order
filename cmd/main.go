@@ -5,11 +5,11 @@ import (
 	"log"
 	"net"
 
-	"github.com/bartukocakara/grpc-shopping-order/client"
-	"github.com/bartukocakara/grpc-shopping-order/config"
-	"github.com/bartukocakara/grpc-shopping-order/db"
-	"github.com/bartukocakara/grpc-shopping-order/pb"
-	"github.com/bartukocakara/grpc-shopping-order/service"
+	"github.com/bartukocakara/grpc-shopping-order/pkg/client"
+	"github.com/bartukocakara/grpc-shopping-order/pkg/config"
+	"github.com/bartukocakara/grpc-shopping-order/pkg/db"
+	"github.com/bartukocakara/grpc-shopping-order/pkg/pb"
+	"github.com/bartukocakara/grpc-shopping-order/pkg/service"
 	"google.golang.org/grpc"
 )
 func main() {
