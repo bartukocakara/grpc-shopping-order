@@ -12,6 +12,7 @@ import (
 	"github.com/bartukocakara/grpc-shopping-order/pkg/service"
 	"google.golang.org/grpc"
 )
+
 func main() {
 	c, err := config.LoadConfig()
 
